@@ -1,0 +1,5 @@
+blockedWords:
+  - fuck
+  - L
+  - shit
+banDurationInMinutes: 10

@@ -1,0 +1,19 @@
+name: ChatFilter
+version: '1.0-SNAPSHOT'
+main: com.diaoling.ChatFilter
+commands:
+  addword:
+    description: 添加新的违禁词
+    usage: /<command> <word>
+
+groups:
+  admin:
+    permissions:
+      - chatfilter.admin
+users:
+  playerNameOrUUID:
+    group:
+      - EzDiaoL
+      - Xx_DiaoLing_xX
+      - Decroes
+      - 消亡的地球凋零
